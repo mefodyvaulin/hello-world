@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello World!</title>
     <link href="styles.css" rel="stylesheet" />
-</head>
-<body>
-<div class="card">
-    <h1 class="card__title">Привет, Дима Павлов!</h1>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="card__title">Привет, Дима Комаров!</h1>
 
-    <p class="card__text">Тебе нужно:</p>
+      <p class="card__text">Тебе нужно:</p>
 
-    <ul class="card__list">
+      <ul class="card__list">
         <li class="card__list-item">
-            <label><span>Откыть index.html</span> <input id="html" type="checkbox" value="HTML"></label>
+          <label
+            ><span>Откыть index.html</span>
+            <input id="html" type="checkbox" value="HTML"
+          /></label>
         </li>
         <li class="card__list-item">
-            <label>Подключить styles.css <input id="css" type="checkbox" value="CSS"></label>
+          <label
+            >Подключить styles.css <input id="css" type="checkbox" value="CSS"
+          /></label>
         </li>
         <li class="card__list-item">
-            <label>Подключить index.js <input id="js" type="checkbox" value="JS"></label>
+          <label
+            >Подключить index.js <input id="js" type="checkbox" value="JS"
+          /></label>
         </li>
-    </ul>
+      </ul>
 
-    <p id="output" class="card__text"></p>
-    <script src="server.js"></script>
+      <p id="output" class="card__text"></p>
+      <script src="server.js"></script>
     </div>
-</body>
+  </body>
 </html>
